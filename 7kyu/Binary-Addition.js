@@ -8,4 +8,4 @@
 // 5, 9 --> "1110" (5 + 9 = 14 in decimal or 1110 in binary)
 
 // My solution 
-const addBinary = (a,b) => (a + b).toString(2) 
+const addBinary = (a,b) => (a + b).toString(2)
