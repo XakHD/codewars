@@ -15,5 +15,5 @@ function noSpace(x) {
     //https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replaceAll
     
     // input "spaced" then "no space" 2nd one is the replacement
-    return x.replaceAll(' ', '');
+    return x.replaceAll(' ', '')
   }
