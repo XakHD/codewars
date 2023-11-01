@@ -11,6 +11,6 @@ function repeats(arr){
     //Filter the items where the index equals the last index of and then reduce the sum
     
         
-      // Array.prototype.filter()  // use Array.prototype.indexOf()    // use Array.prototype.reduce()
+      // Array.prototype.filter()  // use Array.prototype.indexOf() // use array.lastIndexOf method   // use Array.prototype.reduce()
     return arr.filter(v => arr.indexOf(v) === arr.lastIndexOf(v)).reduce((a,b) => a + b, 0);
   };
