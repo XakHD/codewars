@@ -3,7 +3,7 @@
 
 function evenOrOdd(number) {
     // take an integer as an argument
-    // returns even and odd numbers
+    // returns Even and Odd numbers
    if(number % 2 === 0){
      return "Even";
    }else{
