@@ -14,8 +14,8 @@
 //use split method
 //sort by the last character
 //use the sort method
-const last = x =>
+const last = x => x.split(' ').sort((a, b) => a.charCodeAt(a.length - 1) - b.charCodeAt(b.length - 1) )
 //use sort arrow function sort((a, b) => {/*--*/ } )
 //then use the charCodeAt() method to return integer
-x.split(' ').sort((a, b) => a.charCodeAt(a.length - 1) - b.charCodeAt(b.length - 1) )
+
 
